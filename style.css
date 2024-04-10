@@ -147,11 +147,13 @@ section {
 
 .outreach {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 14px;
     cursor: pointer;
     width: fit-content;
     margin-right: auto;
+    text-decoration: none;
 }
 
 .outreach:hover {
