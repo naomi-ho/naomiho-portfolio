@@ -4,6 +4,11 @@
     --bg-color: #121212;
 }
 
+@font-face {
+    font-family: "Blade Logic";
+    src: url("/public/BladeLogicDemoRegular-ALnVD.otf") format("opentype");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +37,14 @@ footer {
     max-width: 700px;
     margin: 0 auto;
     width: 100%;
+}
+
+h1, h2, .headerText {
+    font-family: "Blade Logic";
+}
+
+h1 {
+    font-size: 2em;
 }
 
 p {
@@ -152,7 +165,7 @@ section {
 }
 
 .headerText {
-    margin-bottom: 24px;
+    font-size: 2em;
 }
 
 .projectItem {
